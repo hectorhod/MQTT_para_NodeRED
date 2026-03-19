@@ -1,0 +1,6 @@
+CREATE TABLE leituras (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  temperatura REAL,
+  umidade REAL,
+  timestamp DATETIME DEFAULT CURRENT_TIMESTAMP
+);
